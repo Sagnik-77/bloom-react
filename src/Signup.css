@@ -1,0 +1,86 @@
+.signup-section{
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+.signup-title{
+    color: #0c3f36;
+    font-weight: 500;
+    font-size: 3rem;
+}
+.signup-title span{
+    color: #94FC13;
+    background: linear-gradient(to right, #abfa4a 0, #defabd 10%, #78da00 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.btn-signup{
+    margin-top: 4rem;
+  align-items: center;
+  appearance: none;
+  background-color: #0c3f36;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+.btn-signup:hover{
+    transform: scale(0.9);
+    background-color: white;
+    color: #0c3f36;
+}
+.signup-form-group{
+    height: 4rem;
+    width: 30rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction:column;
+}
+.label-type{
+    color: #000;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px){
+    .signup-title{
+        font-size: 2rem;
+    }
+    .signup-form-group{
+        height: 4rem;
+        width: 20rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction:column;
+    }
+}

@@ -1,0 +1,62 @@
+.register-section{
+    height: 20vh;
+    width: 100%;
+    background: #fff;
+}
+.register-icon{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin-top: 4rem;
+}
+.arduino{
+    height: 80px;
+    width: 80px;
+    margin-right: 2rem;
+}
+.gmail{
+    height: 100px;
+    width: 100px;
+    margin-left: 2rem;
+}
+.register-note{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.register-note > p{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(37, 37, 37, 0.6);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 600px;
+}
+.popuplink{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+    .register-icon{
+        margin-top: 2rem;
+    }
+    .arduino{
+        height: 50px;
+        width: 50px;
+        margin-right: 1rem;
+    }
+    .gmail{
+        height: 60px;
+        width: 60px;
+        margin-left: 1rem;
+    }
+    .register-note > p{
+        max-width:300px;
+    }
+}

@@ -1,0 +1,100 @@
+.product-section{
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+.product-title{
+    color: #0c3f36;
+    font-weight: 500;
+    font-size: 4rem;
+    margin-top: 4rem;
+}
+.product-image-section{
+    margin: 2rem 10rem;
+    justify-content: center;
+    align-items: center;
+}
+.product-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    justify-content: space-around;
+}
+.product-image-1{
+    height: 300px;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s ease-in-out;
+}
+.product-image-2{
+    height: 300px;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s ease-in-out;
+}
+.product-image-3{
+    height: 300px;
+    width: 300px;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 0.2s ease-in-out;
+}
+.product-image-1:hover{
+    transform: scale(1.1);
+}
+.product-image-2:hover{
+    transform: scale(1.1);
+}
+.product-image-3:hover{
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 768px){
+.product-section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.product-section > h3{
+    font-size: 2rem;
+    text-align: center;
+}
+.product-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.product-image-1{
+    height: 200px;
+    width: 200px;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-image-2{
+    height: 200px;
+    width: 200px;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-image-3{
+    height: 200px;
+    width: 200px;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+}
