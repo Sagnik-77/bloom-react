@@ -35,7 +35,7 @@
   
   .footer-input {
     padding: 8px 20px;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-right: 10px;
     outline: none;
     border: none;
@@ -140,7 +140,7 @@
     }
   
     .footer-input {
-      width: 100%;
+      width: 80%;
     }
   
     .btn {
