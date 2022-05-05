@@ -35,11 +35,12 @@
   
   .footer-input {
     padding: 8px 20px;
+    width: 80%;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     outline: none;
     border: none;
-    font-size: 18px;
+    font-size: 1rem;
     margin-bottom: 1rem;
     border: 1px solid #fff;
   }
