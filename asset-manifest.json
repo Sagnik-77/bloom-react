@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bloom-react/static/css/main.d17c1bce.css",
+    "main.css": "/bloom-react/static/css/main.5b809530.css",
     "main.js": "/bloom-react/static/js/main.0f3fd803.js",
     "static/media/bloom.jpg": "/bloom-react/static/media/bloom.da53e7a2475bb182a908.jpg",
     "static/media/3.png": "/bloom-react/static/media/3.20d8b10cba1ce3a027b3.png",
@@ -8,11 +8,11 @@
     "static/media/1.png": "/bloom-react/static/media/1.a38cf5fe584b8b7cc5af.png",
     "static/media/arduino(2).png": "/bloom-react/static/media/arduino(2).a907195de64b297c815a.png",
     "index.html": "/bloom-react/index.html",
-    "main.d17c1bce.css.map": "/bloom-react/static/css/main.d17c1bce.css.map",
+    "main.5b809530.css.map": "/bloom-react/static/css/main.5b809530.css.map",
     "main.0f3fd803.js.map": "/bloom-react/static/js/main.0f3fd803.js.map"
   },
   "entrypoints": [
-    "static/css/main.d17c1bce.css",
+    "static/css/main.5b809530.css",
     "static/js/main.0f3fd803.js"
   ]
 }
