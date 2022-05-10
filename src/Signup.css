@@ -1,7 +1,10 @@
 .signup-section{
     height: 100vh;
     width: 100%;
-    background: white;
+    background: red;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .signup-title{
     color: #0c3f36;
@@ -73,6 +76,14 @@
 }
 
 @media screen and (max-width: 768px){
+    .signup-section{
+        height: 80vh;
+        width: 100%;
+        background: blue;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
     .signup-title{
         font-size: 2rem;
     }
