@@ -1,7 +1,7 @@
 .signup-section{
     height: 100vh;
     width: 100%;
-    background: red;
+    background: white;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -79,8 +79,8 @@
     .signup-section{
         height: 80vh;
         width: 100%;
-        background: blue;
-        margin-top: 2rem;
+        background: white;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
     }
