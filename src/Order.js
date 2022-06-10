@@ -21,7 +21,7 @@ export default function Order() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/sagnik/google_sheets/ovyegDIIkblCEWWl?tabId=Sheet1",
+        "https://v1.nocodeapi.com/sagnik/google_sheets/LDzfDUXWTyuTklCm?tabId=Sheet1",
         {
           method: "POST",
           headers: {

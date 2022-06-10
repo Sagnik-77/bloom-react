@@ -22,7 +22,7 @@ export default function SignUp() {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/sagnik/google_sheets/wBepzpXVPcgAcjFe?tabId=Sheet1",
+        "https://v1.nocodeapi.com/sagnik/google_sheets/ovyegDIIkblCEWWl?tabId=Sheet1",
         {
           method: "POST",
           headers: {
